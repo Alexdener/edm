@@ -41,6 +41,7 @@
           box-shadow: none;
   border: none;
   border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  background-color: #FAFAFA;
 }
 .ui.vertical.segment:last-child {
   border-bottom: none;
@@ -628,10 +629,10 @@
 
 /* Black */
 .ui.black.segment:not(.inverted) {
-  border-top: 2px solid #1B1C1D !important;
+  border-top: 2px solid #FFF !important;
 }
 .ui.inverted.black.segment {
-  background-color: #1B1C1D !important;
+  background-color: #FFF !important;
   color: #FFFFFF !important;
 }
 
@@ -674,7 +675,7 @@
 }
 .ui.inverted.segment,
 .ui.primary.inverted.segment {
-  background: #1B1C1D;
+  background: #FFF;
   color: rgba(255, 255, 255, 0.9);
 }
 
